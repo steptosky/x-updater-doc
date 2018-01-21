@@ -49,16 +49,16 @@ This command is for committing and uploading your changes. I.e. this command mak
 
 .. code-block:: bash
 
-   $ xupd client commit -desc="my new commit"
+   $ xupd commit -desc="any text here"
 
 
 .. code-block:: bash
 
-   $ xupd client commit -dir="myProductFolder" \
-                        -apiKey=ca5c22db1805612b49264281bffcfa86caa4a879 \
-                        -productId=7b8ea61ebb1082b9e8300c304b182f808d1bccae \
-                        -desc="my new commit" \
-                        -type=beta \
-                        -slots=100 \
-                        -resetBetaAccess \
-                        -force
+   $ xupd commit -dir="myProductFolder" \
+                 -apiKey=ca5c22db1805612b49264281bffcfa86caa4a879 \
+                 -productId=7b8ea61ebb1082b9e8300c304b182f808d1bccae \
+                 -desc="any text here" \
+                 -type=beta \
+                 -slots=100 \
+                 -resetBetaAccess \
+                 -force
