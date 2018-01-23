@@ -4,6 +4,10 @@
 The X-Updater Java Client
 ===========================
 
+0.6.1-beta (23.01.2018)
+--------------------------------------------------------------------
+- Fix: running under mac, the client couldn't be started because of hanging self-update.
+
 0.6.0-beta (19.01.2018)
 --------------------------------------------------------------------
 - Feature: selecting snapshot types release/beta/alpha.
