@@ -30,11 +30,11 @@ This command is for checking the difference between your local product and last 
 
 .. code-block:: bash
 
-   $ xupd client status
+   $ xupd status
 
 
 .. code-block:: bash
 
-   $ xupd client status -dir="myProductFolder" \
-                        -apiKey=ca5c22db1805612b49264281bffcfa86caa4a879 \
-                        -productId=7b8ea61ebb1082b9e8300c304b182f808d1bccae
+   $ xupd status -dir="myProductFolder" \
+                 -apiKey=ca5c22db1805612b49264281bffcfa86caa4a879 \
+                 -productId=7b8ea61ebb1082b9e8300c304b182f808d1bccae
